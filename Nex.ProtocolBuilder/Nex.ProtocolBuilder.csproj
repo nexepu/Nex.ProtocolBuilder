@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject />
+    <AssemblyName>Nex.ProtocolBuilder</AssemblyName>
+    <RootNamespace>Nex.ProtocolBuilder</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="com_old\**" />
+    <Compile Remove="Input\**" />
+    <Compile Remove="Output\**" />
+    <Compile Remove="Output_old\**" />
+    <EmbeddedResource Remove="com_old\**" />
+    <EmbeddedResource Remove="Input\**" />
+    <EmbeddedResource Remove="Output\**" />
+    <EmbeddedResource Remove="Output_old\**" />
+    <None Remove="com_old\**" />
+    <None Remove="Input\**" />
+    <None Remove="Output\**" />
+    <None Remove="Output_old\**" />
+  </ItemGroup>
+
+</Project>
